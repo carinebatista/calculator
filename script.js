@@ -6,9 +6,9 @@ function insert(num){
 function cleanVisor(){
   document.getElementById('visor').innerHTML = ''
 }
+
 function result(){
   var visor = document.getElementById('visor').innerHTML;
-
   if(visor){
     document.getElementById('visor').innerHTML =eval(visor)
   }else{
